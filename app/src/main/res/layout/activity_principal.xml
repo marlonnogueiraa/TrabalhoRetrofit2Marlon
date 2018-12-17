@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atividades.PrincipalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRABALHO DE ANDROID" />
+
+        <Button
+            android:id="@+id/btn_Service_Post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="servicoPost"
+            android:text="SERVIÇO POST" />
+
+        <Button
+            android:id="@+id/btn_todos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="servicoTodos"
+            android:text="SERVIÇO TODOS" />
+
+        <Button
+            android:id="@+id/btnManimular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ServicoManipularPost"
+            android:text="MANIPULAR DADOS POST" />
+
+        <Button
+            android:id="@+id/btnManipularTodos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ServicoManipularTodos"
+            android:text="MANIPULAR DADOS TODOS" />
+
+        <Button
+            android:id="@+id/btnRecursoPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ServicoPhoto"
+            android:text="SERVIÇO PHOTOS" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
